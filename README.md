@@ -1,4 +1,6 @@
 # campaign
-campaign is a series of scripts written for the purpose of improving the coordination of assessing a flat network for vulnerabilities through the reconnaissance process all the way through post-exploitation. It was written primarily for usage in the Attack-and-Defend Capture-the-Flag (CTF) security competition Panoply. 
+campaign is a series of scripts written for the purpose of improving the coordination of assessing a local network for vulnerabilities from the reconnaissance process all the way through post-exploitation. It was written primarily for usage in the attack-and-defend capture-the-flag (CTF) security competition Panoply. 
 
-It is advised that the programs in this repository should only be used for educational purposes and in a safe setting such as in a local (in-house) CTF or offensive security competition where its usage would be allowed.
+Panoply is a network security competition hosted by The Center for Infrastructure Assurance and Security (CIAS) where teams of students compete for possession of vulnerable machines utilizing offensive security techniques. Additionally, students must defend those same machines from other teams. More information can be found at http://www.cyberpanoply.com/.
+
+The programs in this repository should only be used for educational purposes and in a safe setting such as in a local CTF or offensive security competition where their usage would be allowed.
